@@ -1,0 +1,392 @@
+.body-top {
+    font-family: Verdana;
+    background-color: #b8dcd2;
+    padding-top: 100px;
+}
+
+.header div{
+    background-color: white;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 50px;
+}
+
+.header img {
+    width: 100%;
+    height: 100px;
+}
+
+.container-fluid a {
+    color: #DE3163;
+}
+
+.container-fluid a:hover {
+    color: #CCCCFF;
+}
+
+.container-fluid li a {
+    color: black;
+}
+
+.flex {
+    width: 80%;
+    margin: auto;
+}
+
+/* Страница магазина */
+.shop {
+    margin-top: 100px;
+    text-align: left;
+    position: relative;
+}
+
+.shop .card {
+    height: 520px;
+}
+
+.shop .btn {
+    position: absolute;
+    bottom: 16px;
+}
+
+.catalog {
+    display: block;
+}
+
+
+/* Карточки в магазине */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    width: 100%;
+    max-width: 1400px; /* Ширина grid-контейнера */
+    justify-content: center;
+    justify-items: center; /* Размещаем карточку по центру */
+    column-gap: 30px; /* Отступ между колонками */
+    row-gap: 30px; /* Отступ между рядами */
+    margin: 0 auto;
+}
+
+.news {
+    margin-top: 100px;
+    text-align: left;
+    position: relative;
+    display: block;
+}
+
+.news_title {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+}
+
+.__add__news {
+    position: absolute;
+    padding: 5px;
+    right: 1px;
+}
+
+
+.news h3 {
+    margin-bottom: 10px;
+}
+
+/* Страница с новостью */
+.__news {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.__news_info {
+    position: relative;
+    max-height: 1200px;
+    display: flex;
+}
+
+.__news h3 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.__news_img {
+    height: 600px;
+    border-radius: 4px;
+}
+
+.__news__btn {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+
+.__news p {
+    font-size: 24px;
+    margin-left: 10px;
+    padding: 10px;
+    display: block;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 4px;
+    height: 600px;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    float: left;
+    width: 100%;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s, color 0.8s; /* Время перехода */
+}
+
+.price {
+    position:absolute;
+    color: white;
+    background-color: rgba(222, 49, 99, 0.8);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    right: 0px;
+    top: 20px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.price::after{
+    content: "₽";
+    margin-left: 4px;
+    position: relative;
+}
+.shop .card > img {
+    max-width: 300px;
+    height: 300px;
+    object-fit:cover;
+}
+
+.card:hover {
+    color: white;
+    background-color: #3f8a7c; /* Цвет фона */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3f8a7c; /* Тень в виде рамки */
+}
+
+.contact {
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.form-label {
+    margin-top: 10px;
+}
+
+.btn-success {
+    display: block;
+    width: 50%;
+    margin: auto;
+    background-color: #3f8a7c;
+    color: #fff;
+    border-radius: 4px;
+    height: 40px;
+    transition: background-color 0.4s, box-shadow 0.2s 0.4s, color 0.8s;
+}
+
+.btn-success:hover {
+    background-color: #DE3163;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3f8a7c;
+}
+
+.__remarks {
+    margin: auto;
+}
+
+.__remarks__block {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.__remarks_textarea {
+    border-radius: 4px;
+}
+
+.__remarks__button {
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.remarks__block {
+    display: block;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hr__line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-width: 0 0 5px;
+	border-style: solid;
+	background-position: 100%;
+	box-sizing: border-box;
+	color: white;
+}
+
+.remarks__container {
+    display: block;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.remarks__row {
+    padding: 10px;
+    min-height: 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.auth_block {
+    position: absolute;
+    bottom: 10px;
+    float: left;
+}
+
+.auth__text {
+    margin-right: 100px;
+    float: left;
+}
+
+.form__reg {
+    margin: auto;
+}
+
+/* Профиль */
+.__profile__conteiner {
+    display: block;
+    position: relative;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.__profile__conteiner h3 {
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.__profile__header {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.__profile__img {
+    display: block;
+    position: relative;
+    margin: 10px;
+    padding: 20px;
+    width: 20%;
+    height: auto;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px #eee;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.__profile__img > img {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+}
+
+.__profile__img > p {
+    position: static;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    bottom: 10px;
+    text-align: center;
+}
+.__profile__info {
+    display: block;
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    right: 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px #eee;
+}
+
+.__profile__info .btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #3f8a7c;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.4s, color 0.3s;
+}
+
+.__profile__info .btn:hover {
+    background-color: #CCCCFF;
+    color: black;
+    border-radius: 4px;
+}
+
+.__profile__body {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.__profile__cart {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 4px 4px #eee;
+}
+
+.__profile__buy {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 4px 4px #eee;
+}
+

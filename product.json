@@ -1,0 +1,60 @@
+{
+    "product": [
+        {
+            "id" : 0,
+            "name" : "Пенал с котом Пушином",
+            "description" : "Очень милый пинал. Отлично подойдет для всего.",
+            "img" : "https://i.pinimg.com/originals/97/fa/4c/97fa4c49f79718d1365fd61cb73b5aae.jpg",
+            "price" : "1399"
+        },
+        {
+            "id" : 1,
+            "name" : "Пушин единорог",
+            "description" : "Милый кот Пушин единорожка ждет, пока ты его купишь!",
+            "img" : "https://ke-images.servicecdn.ru/c7o1usvsrol6sbh61v60/original.jpg",
+            "price" : "4590"
+        },
+        {
+            "id" : 2,
+            "name" : "Значки с котом Пушином",
+            "description" : "Эти значки буквально созданы для тебя!",
+            "img" : "https://avatars.mds.yandex.net/get-mpic/5131700/img_id1117723757693782788.png/orig",
+            "price" : "189"
+        },
+        {
+            "id" : 3,
+            "name" : "Коробки с сюрпризом",
+            "description" : "Это самый лучший подарок для родных и близких.",
+            "img" : "https://images-na.ssl-images-amazon.com/images/I/81o0rMRYQGL.jpg",
+            "price" : "6399"
+        },
+        {
+            "id" : 4,
+            "name" : "Брелоки Вкусный Пушин",
+            "description" : "Это самый лучший брелок, что можно найти.",
+            "img" : "https://i.pinimg.com/originals/2b/1c/8b/2b1c8b5ea90c2377a58a096be256793e.jpg",
+            "price" : "249"
+        },
+        {
+            "id" : 5,
+            "name" : "Кольцо Кот Пушин",
+            "description" : "Ты знаешь кому подарить это колечко!",
+            "img" : "https://www.youloveit.ru/uploads/posts/2014-06/1402923892_youloveit_ru_tovary_s_kotom_pushinom06.png",
+            "price" : "1799"
+        },
+        {
+            "id" : 6,
+            "name" : "Классический кот Пушин",
+            "description" : "Классическая плюшевая игрушка, которая должна быть у каждого.",
+            "img" : "https://ke-images.servicecdn.ru/c7o1usvsrol6sbh61v60/original.jpg",
+            "price" : "4390"
+        },
+        {
+            "id" : 7,
+            "name" : "Кот Пушин с лапками фасолинками",
+            "description" : "Милый кот Пушин единорожка ждет, пока ты его купишь!",
+            "img" : "https://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/MTIAAOSwWttjsaLK/$_57.JPG?set_id=880000500F",
+            "price" : "3199"
+        }
+    ]
+}
